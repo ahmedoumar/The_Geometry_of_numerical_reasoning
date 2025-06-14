@@ -31,7 +31,7 @@ This project investigates how large language models (LLMs) internally represent 
 git clone https://github.com/your-username/geometry-of-numerical-reasoning.git
 cd geometry_of_numerical_reasoning```
 
-
+---
 ### Citation
 
 
