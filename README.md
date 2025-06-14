@@ -25,7 +25,7 @@ This project investigates how large language models (LLMs) internally represent 
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/geometry-of-numerical-reasoning.git
