@@ -29,9 +29,10 @@ This project investigates how large language models (LLMs) internally represent 
 
 ```bash
 git clone https://github.com/your-username/geometry-of-numerical-reasoning.git
-cd geometry_of_numerical_reasoning
+cd geometry_of_numerical_reasoning```
 
 
+### Citation
 
 
 @inproceedings{el-shangiti-etal-2025-geometry,
@@ -57,7 +58,7 @@ cd geometry_of_numerical_reasoning
 }
 
 
-📬 Contact
+## 📬 Contact
 For questions, feedback, or collaboration ideas:
 
 Ahmed Oumar El-Shangiti
