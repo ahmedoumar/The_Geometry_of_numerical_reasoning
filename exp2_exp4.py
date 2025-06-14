@@ -293,12 +293,12 @@ if __name__ == "__main__":
     model_name = "google/gemma-2-9b-it"
     
     # get the tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token="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")
+    tokenizer = AutoTokenizer.from_pretrained(model_name, )
     
     # get the model
     model = AutoModelForCausalLM.from_pretrained(model_name, 
                                                  device_map='auto', 
-                                                 use_auth_token="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")
+                                                 )
     
     device = model.device
     print(f"*****====Device: {device} ===****")

@@ -118,13 +118,13 @@ def main(prompt_idx):
     #model_name = "mistralai/Mistral-7B-Instruct-v0.3"
     model_name = "Qwen/Qwen2.5-7B-Instruct"
     # get the tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token="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")
+    tokenizer = AutoTokenizer.from_pretrained(model_name, )
 
     # get the model
     model = AutoModelForCausalLM.from_pretrained(model_name, 
                                                  device_map='auto', 
                                                  #torch_dtype=torch.float16,
-                                                    use_auth_token="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")
+                                                    )
     
     data = pd.read_csv('birth_data_filtered.csv')#[:10]
     tokenizer.pad_token_id = tokenizer.eos_token_id
