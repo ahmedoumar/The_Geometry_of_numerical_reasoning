@@ -17,9 +17,11 @@ This project investigates how large language models (LLMs) internally represent 
 
 ### 🔬 Key Contributions
 - 🔍 Identify **low-dimensional numerical directions** using Partial Least Squares (PLS)
-- 📈 Show that numerical representations are **consistent and linear** across layers
+- 📈 Experiments conducted
+on three different LLMs showed that our results
+hold across different numerical attributes, indicating that LLMs utilize the linearly encoded
+Information for numerical reasoning
 - 🔁 Demonstrate **causal effects** through interventions in numerical subspaces
-- 🧪 Propose new **evaluation protocols** for assessing LLMs' numerical reasoning
 
 ---
 
@@ -28,7 +30,7 @@ This project investigates how large language models (LLMs) internally represent 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/geometry-of-numerical-reasoning.git
+git clone https://github.com/ahmedoumar/geometry-of-numerical-reasoning.git
 cd geometry-of-numerical-reasoning
 
 
