@@ -2,7 +2,7 @@
 
 This repository contains the code and experiments for our **NAACL 2025** paper:
 
-> **The Geometry of Numerical Reasoning**  
+> **The Geometry of Numerical Reasoning([link](https://aclanthology.org/2025.naacl-short.47/))**  
 > El-Shangiti, Hiraoka, AlQuabeh, Heinzerling, Inui
 
 ---
