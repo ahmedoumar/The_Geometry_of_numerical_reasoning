@@ -15,6 +15,19 @@ This project investigates how large language models (LLMs) internally represent 
   <img src="assets/numerical-subspace.png" alt="Numerical Subspace Illustration" width="600"/>
 </p>
 
+### Abstract
+This paper investigates whether large language
+models (LLMs) utilize numerical attributes encoded in a low-dimensional subspace of the
+embedding space when answering questions
+involving numeric comparisons, e.g., Was Cristiano born before Messi?. We first identified,
+using partial least squares regression, these subspaces, which effectively encode the numerical
+attributes associated with the entities in comparison prompts. Further, we demonstrate causality, by intervening in these subspaces to manipulate hidden states, thereby altering the LLM’s
+comparison outcomes. Experiments conducted
+on three different LLMs showed that our results
+hold across different numerical attributes, indicating that LLMs utilize the linearly encoded
+information for numerical reasoning.
+
+
 ### 🔬 Key Contributions
 - 🔍 Identify **low-dimensional numerical directions** using Partial Least Squares (PLS)
 - 📈 Experiments conducted
