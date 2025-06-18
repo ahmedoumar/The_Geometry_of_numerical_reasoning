@@ -12,7 +12,7 @@ This repository contains the code and experiments for our **NAACL 2025** paper:
 This project investigates how large language models (LLMs) internally represent and manipulate numerical information. We analyze **numerical subspaces** in model activations, revealing geometric structures that support numerical reasoning.
 
 <p align="center">
-  <img src="assets/numerical-subspace.png" alt="Numerical Subspace Illustration" width="600"/>
+  <img src="image.png" alt="Numerical Subspace Illustration" width="600"/>
 </p>
 
 ## Abstract
