@@ -15,7 +15,7 @@ This project investigates how large language models (LLMs) internally represent 
   <img src="assets/numerical-subspace.png" alt="Numerical Subspace Illustration" width="600"/>
 </p>
 
-### Abstract
+## Abstract
 This paper investigates whether large language
 models (LLMs) utilize numerical attributes encoded in a low-dimensional subspace of the
 embedding space when answering questions
